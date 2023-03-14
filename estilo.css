@@ -1,12 +1,78 @@
+@media screen and (min-width:1441px){
+    main,.tamanho_vagas,.primeiraparte,.beneficios_tamanho,.veja{
+        max-width: 1440px;
+}
+    footer,.caixa_footer{
+        max-width: 1440px;
+    }
+}
+@media screen and (max-width:1367px){
+    main,.tamanho_vagas,.primeiraparte,.beneficios_tamanho,.veja{
+        max-width: 1366px;
+}
+    footer,.caixa_footer{
+        max-width: 1366px;
+    }
+}
+
+@media screen and (max-width:1281px){
+    main,.tamanho_vagas,.primeiraparte,.beneficios_tamanho,.veja{
+        max-width: 1280px;
+}
+    footer,.caixa_footer{
+        max-width: 1280px;
+    }
+}
+
+@media screen and (max-width:426px){
+    main,.tamanho_vagas,.primeiraparte,.beneficios_tamanho,.veja{
+        max-width: 425px;
+}
+    footer,.caixa_footer{
+        max-width: 425px;
+    }
+}
+
+@media screen and (max-width:376px){
+    main,.tamanho_vagas,.primeiraparte,.beneficios_tamanho,.veja{
+        max-width: 375px;
+}
+    footer,.caixa_footer{
+        max-width: 375px;
+    }
+}
+
+@media screen and (max-width:321px){
+    main,.tamanho_vagas,.primeiraparte,.beneficios_tamanho,.veja{
+        max-width: 320px;
+}
+    footer,.caixa_footer{
+        max-width: 320px;
+    }
+}
+
 body{
     background:#FFFFFF;
-    width:100%;
+    margin: 0 auto;
+    width: 100%;   
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 header{
     width: 100%;
     height: 80px;
-    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .cabecalho{
@@ -109,8 +175,10 @@ header{
     display: flex;
     flex-direction: column;
     gap: 24px;
+    justify-content: center;
     align-items: center;
     padding: 96px 0px;
+    width: 1440px;
 }
 
 .sobrenos{
@@ -143,6 +211,7 @@ header{
 
 .beneficios_tamanho{
     height: 288px;
+    width: 1440px;
 }
 
 .beneficios{
@@ -187,11 +256,16 @@ header{
     color:#667085;
 }
 
+.tamanho_vagas{
+    width: 1440px;
+}
+
 .principal_vagas{
     width: 1280px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-bottom: 64px;
 }
@@ -329,9 +403,11 @@ header{
 }
 
 .veja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 1440px;
     height: 500px;
-    margin:0 auto 96px auto;
 }
 
 .veja_optimus{
@@ -388,7 +464,10 @@ color: #667085;
 }
 
 footer{
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
     height: 430px;
     background: #F9FAFB;
     margin-bottom: 96px;
@@ -397,7 +476,7 @@ footer{
 .caixa_footer{
     width: 768px;
     height: 182px;
-    padding:96px 336px 152px 336px;
+    padding:96px 0 152px 0;
     margin: 0 auto;
 }
 
