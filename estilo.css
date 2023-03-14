@@ -1,0 +1,470 @@
+body{
+    background:#FFFFFF;
+    width:100%;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+    width: 1280px;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    margin: 18px auto 18px auto;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 148px;
+    height:26.99px;
+}
+
+.nome{
+    color:#3A404E;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 7px;
+    font-family:'Inter';
+}
+
+.logo img{
+    width: 27px;
+    height: 26.99px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 429px;
+    height: 32px;
+    gap: 40px;
+    padding: 0px;
+}
+
+.links p{
+    color:#667085;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family:'Inter';
+    width: 78px;
+    height: 24px;
+    text-align: center;
+}
+
+.espaco_vazio{
+    width: 142px;
+    height: 32px;
+}
+
+.entrar_cadastrar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width:207px;
+    height:44px;
+    gap:12px;
+    padding: 0px;
+
+}
+
+.entrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 112px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family:'Inter';
+    color:#667085;
+
+}
+
+.cadastrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#8E2424 ;
+    border-radius:8px ;
+    width: 112px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family:'Inter';
+    color: #FFFFFF;
+}
+
+.primeiraparte{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    padding: 96px 0px;
+}
+
+.sobrenos{
+    font-weight: 600;
+    font-size: 16px;
+    color:#8E2424;
+    font-family: 'Inter';
+    text-align: center;
+}
+
+.por_que{
+    font-weight: 600;
+    font-size: 48px;
+    color:#101828;
+    font-family: 'Inter';
+    text-align: center;
+}
+
+.textosobre{
+    font-weight: 400;
+    font-size: 20px;
+    color:#667085;
+    font-family: 'Inter';
+    text-align: center;
+    width: 792px;
+    height: 72px;
+    padding: 12px 0px 0px;
+    line-height: 30px;
+}
+
+.beneficios_tamanho{
+    height: 288px;
+}
+
+.beneficios{
+    width: 1216px;
+    height: 192px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    margin:0 auto;
+    padding-bottom: 96px;
+}
+
+.beneficios h2{
+    width: 280px;
+    height: 72px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    color:#8E2424;
+}
+
+.beneficios h3{
+    width: 280px;
+    height: 28px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color:#101828;
+}
+
+.beneficios p{
+    width: 280px;
+    height: 72px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:#667085;
+}
+
+.principal_vagas{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.principal_vagas h2{
+    width: 125px;
+    height: 28px;
+    background: rgba(142,36,36,0.05);
+    border-radius:16px;
+    padding: 4px 12px;
+    color:#8E2424;
+    font-family: 'Inter';
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.textos_vagas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.principal_vagas h3{
+    width: 768px;
+    height: 44px;
+    color:#101828;
+    font-family: 'Inter';
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+}
+
+.principal_vagas h4{
+    width: 768px;
+    height: 30px;
+    color: #667085;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.imagem_zona{
+    display: block;
+}
+
+.Imagem{
+    width: 1216px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.anuncios{
+    width: 1280px;
+    margin:0 auto 96px auto;
+    box-sizing: border-box;
+}
+
+.caixa_anuncios{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 768px;
+    height: 358px;
+    margin: 0 auto;
+}
+
+.espacamento_titulo{
+    gap:32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa_anuncios{
+    margin-bottom: 32px;
+}
+
+.titulo_caixa{
+    color: #101828;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    width: 768px;
+    margin: 0 auto;
+    
+}
+
+.caixa_menor{
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    height: 136px;
+    padding: 24px 24px 28px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+}
+
+.caixa_menor h3{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.texto_caixa{
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.texto_caixa p{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color:#667085;
+}
+
+.caixa_anuncios2{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 768px;
+    height: 518px;
+    margin: 0 auto;
+}
+
+.veja{
+    width: 1440px;
+    height: 500px;
+    margin:0 auto 96px auto;
+}
+
+.veja_optimus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1216px;
+    height: 404px;
+    margin:0 auto;
+    justify-content: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+}
+
+.veja_optimus h2{
+    color:#8E2424;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.sobre{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #101828;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 32px;
+    padding: 0 64px 0 64px;
+}
+
+.nome_avatar{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color:#101828;
+}
+
+.cargo_avatar{
+font-family: 'Inter';;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #667085;
+}
+
+footer{
+    width: 100%;
+    height: 430px;
+    background: #F9FAFB;
+    margin-bottom: 96px;
+}
+
+.caixa_footer{
+    width: 768px;
+    height: 182px;
+    padding:96px 336px 152px 336px;
+    margin: 0 auto;
+}
+
+.caixa_footer h2{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #101828;
+}
+
+.caixa_footer p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form input{
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 48px;
+    border-color: #D0D5DD;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    box-sizing: border-box;
+    font-family: 'Arial';
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+#cadastrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 8px;
+    width: 116px;
+    height: 48px;
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    border-radius: 8px;
+    color:#FFFFFF;
+    margin-left: 16px;
+}
+
+#direitos{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #98A2B3;
+    align-items: center;
+}
